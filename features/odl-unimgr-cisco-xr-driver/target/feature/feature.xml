@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-unimgr-cisco-xr-driver">
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr/0.3.1-SNAPSHOT/xml/features</repository>
+    <feature name="odl-unimgr-cisco-xr-driver" description="ODL :: unimgr :: odl-unimgr-cisco-xr-driver" version="0.3.1.SNAPSHOT">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.unimgr/cisco-xrmodels/0.3.1-SNAPSHOT</bundle>
+        <bundle>mvn:org.opendaylight.unimgr/unimgr-cisco-xr-driver/0.3.1-SNAPSHOT</bundle>
+    </feature>
+</features>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-unimgr-netvirt">
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/1.6.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.genius/odl-genius-api/0.3.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.netvirt/odl-netvirt-impl/0.5.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-restconf/1.6.0/xml/features</repository>
+    <feature name="odl-unimgr-netvirt" description="ODL :: unimgr :: odl-unimgr-netvirt" version="0.3.1.SNAPSHOT">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="1.6.0" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr</feature>
+        <feature version="0.3.0" prerequisite="false" dependency="false">odl-genius-api</feature>
+        <feature version="0.5.0" prerequisite="false" dependency="false">odl-netvirt-impl</feature>
+        <feature version="1.6.0" prerequisite="false" dependency="false">odl-restconf</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.unimgr/unimgr-netvirt/0.3.1-SNAPSHOT</bundle>
+        <bundle>mvn:org.opendaylight.unimgr/unimgr-legato-api/0.3.1-SNAPSHOT</bundle>
+    </feature>
+</features>

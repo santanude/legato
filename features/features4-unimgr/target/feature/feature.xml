@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="features4-unimgr">
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-netvirt/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-dlux/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-console/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-rest/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-ui/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-cisco-xr-driver/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-ovs-driver/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-template-driver/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-api/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-legato-api/0.3.1-SNAPSHOT/xml/features</repository>
+    <feature name="features4-unimgr" description="features4-unimgr" version="0.3.1.SNAPSHOT">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-netvirt</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-dlux</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-console</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-rest</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-ui</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-cisco-xr-driver</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-ovs-driver</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-template-driver</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-api</feature>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-legato-api</feature>
+    </feature>
+</features>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-unimgr-console">
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr/0.3.1-SNAPSHOT/xml/features</repository>
+    <feature name="odl-unimgr-console" description="ODL :: unimgr :: odl-unimgr-console" version="0.3.1.SNAPSHOT">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.unimgr/unimgr-cli/0.3.1-SNAPSHOT</bundle>
+    </feature>
+</features>

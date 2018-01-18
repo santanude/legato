@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-unimgr-rest">
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-restconf/1.6.0/xml/features</repository>
+    <feature name="odl-unimgr-rest" description="ODL :: unimgr :: odl-unimgr-rest" version="0.3.1.SNAPSHOT">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr</feature>
+        <feature version="1.6.0" prerequisite="false" dependency="false">odl-restconf</feature>
+    </feature>
+</features>

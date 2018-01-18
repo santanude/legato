@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="odl-unimgr-dlux">
+    <repository>mvn:org.opendaylight.unimgr/odl-unimgr-netvirt/0.3.1-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.dlux/odl-dlux-core/0.6.0/xml/features</repository>
+    <feature name="odl-unimgr-dlux" description="ODL :: unimgr :: odl-unimgr-dlux" version="0.3.1.SNAPSHOT">
+        <details>OpenDaylight is leading the transformation to Open Software Defined Networking (SDN). For more information, please see https://www.opendaylight.org</details>
+        <feature version="0.3.1.SNAPSHOT" prerequisite="false" dependency="false">odl-unimgr-netvirt</feature>
+        <feature version="0.6.0" prerequisite="false" dependency="false">odl-dlux-core</feature>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.opendaylight.unimgr/cpeui-bundle/0.3.1-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.felix/javax.servlet/1.0.0</bundle>
+        <bundle>wrap:mvn:org.apache.felix/org.osgi.foundation/1.2.0</bundle>
+        <bundle>wrap:mvn:org.opendaylight.unimgr/cpeui-module/0.3.1-SNAPSHOT</bundle>
+    </feature>
+</features>
