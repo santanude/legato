@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1515578200177
+Build-Jdk: 1.8.0_144
+Built-By: mef-dev
+Bundle-Description: OpenDaylight is leading the transformation to Open S
+ oftware Defined Networking (SDN). For more information, please see http
+ s://www.opendaylight.org
+Bundle-DocURL: https://www.opendaylight.org
+Bundle-License: https://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: ODL :: unimgr :: unimgr-presto-api
+Bundle-SymbolicName: org.opendaylight.unimgr.presto-api
+Bundle-Vendor: OpenDaylight
+Bundle-Version: 0.3.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-3.0.0.201509101326

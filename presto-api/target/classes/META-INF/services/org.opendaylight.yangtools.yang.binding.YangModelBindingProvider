@@ -1,0 +1,7 @@
+org.opendaylight.yang.gen.v1.urn.mef.nrp.specs.rev160630.$YangModelBindingProvider
+org.opendaylight.yang.gen.v1.urn.onf.core.network.module.rev160630.$YangModelBindingProvider
+org.opendaylight.yang.gen.v1.urn.mef.unimgr.ext.rev160725.$YangModelBindingProvider
+org.opendaylight.yang.gen.v1.urn.mef.nrp.types.rev160630.$YangModelBindingProvider
+org.opendaylight.yang.gen.v1.urn.mef.nrp.bandwidth.profile.rev160630.$YangModelBindingProvider
+org.opendaylight.yang.gen.v1.urn.onf.core.specs.rev160630.$YangModelBindingProvider
+org.opendaylight.yang.gen.v1.urn.onf.core.network.types.rev160630.$YangModelBindingProvider
