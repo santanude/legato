@@ -49,33 +49,33 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
     <profile>
       <id>models</id>
       <modules>
-        <!--<module>cisco-xrmodels</module>-->
+        <module>cisco-xrmodels</module>
       </modules>
       <activation><activeByDefault>true</activeByDefault></activation>
     </profile>
     <profile>
       <id>main</id>
       <modules>
-         <!--<module>api</module>-->
+        <module>api</module>
         <module>legato-api</module>
-       <!-- <module>nrp-api</module>
+        <module>nrp-api</module>
         <module>impl</module>
         <module>netvirt</module>
         <module>cisco-xr-driver</module>
         <module>ovs-driver</module>
         <module>template-driver</module>
         <module>dlux</module>
-        <module>cli</module>-->
+        <module>cli</module>
         <module>karaf</module>
         <module>features</module>
-        <!-- <module>artifacts</module>-->
+        <module>artifacts</module>
       </modules>
       <activation><activeByDefault>true</activeByDefault></activation>
     </profile>
     <profile>
       <id>test</id>
       <modules>
-        <!-- <module>it</module>-->
+         <module>it</module>
       </modules>
       <activation><activeByDefault>true</activeByDefault></activation>
     </profile>
