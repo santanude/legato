@@ -1,0 +1,49 @@
+module unimgr-ext {
+    namespace "urn:odl:unimgr:yang:unimgr-ext";
+    prefix unimgr-ext;
+
+    import tapi-common {
+        prefix tapi-common;
+    }
+    import tapi-topology {
+        prefix tapi-topology;
+    }
+    import nrp-interface {
+        prefix nrp-interface;
+    }
+
+    revision 2017-05-31 {
+        description "Unimgr SIP extensions";
+    }
+
+
+    rpc add-sip {
+        description "Add sip to the existing nep";
+        input {
+            leaf nep-id {
+                type leafref {
+                    path '/tapi-common:context/tapi-topology:topology/tapi-topology:node/tapi-topology:owned-node-edge-point/tapi-topology:uuid';
+                }
+            }
+            leaf node-id {
+                type leafref {
+                    path '/tapi-common:context/tapi-topology:topology/tapi-topology:node/tapi-topology:uuid';
+                }
+            }
+            choice sip-type {
+                container uni-spec {
+                    uses nrp-interface:nrp-carrier-eth-uni-n-resource;
+                    description "none";
+                }
+                container inni-spec {
+                    uses nrp-interface:nrp-carrier-eth-inni-n-resource;
+                    description "none";
+                }
+                container enni-spec {
+                    uses nrp-interface:nrp-carrier-eth-enni-n-resource;
+                    description "none";
+                }
+            }
+        }
+    }
+}
