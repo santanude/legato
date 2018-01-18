@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>unimgr-impl</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.PluginNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>mdsal-binding</name>
+			<type>2</type>
+			<location>/home/mef-dev/unimgr/impl/target/generated-sources/mdsal-binding</location>
+		</link>
+		<link>
+			<name>target2</name>
+			<type>2</type>
+			<location>/home/mef-dev/unimgr/impl/target</location>
+		</link>
+	</linkedResources>
+</projectDescription>
